@@ -1,0 +1,25 @@
+/* ── DESIGN TOKENS ── */
+:root {
+  /* Colors */
+  --bg:            #0D0D0F;
+  --surface:       #13131A;
+  --surface2:      #1A1A24;
+  --border:        #2A2A3A;
+  --purple:        #A855F7;
+  --purple-dim:    #7C3AED;
+  --purple-glow:   rgba(168, 85, 247, 0.15);
+  --purple-bright: #C084FC;
+  --slate:         #8B8FA8;
+  --text:          #E8E8F0;
+  --muted:         #5A5A72;
+  --cyan:          #22D3EE;
+  --green:         #28CA41;
+
+  /* Typography */
+  --font-display: 'Clash Display', sans-serif;
+  --font-body:    'Outfit', sans-serif;
+
+  /* Spacing */
+  --section-pad: 120px 64px;
+  --nav-pad:     24px 64px;
+}

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daniel L. Tobing — AI Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/sections.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+
+  <div class="grid-bg"></div>
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- NAV -->
+  <nav id="nav">
+    <a href="#hero" class="nav-logo">&lt;<span>Daniel</span> /&gt;</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact" class="nav-cta">Hire Me</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about">About</a>
+    <a href="#work">Work</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Hire Me</a>
+  </div>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-glow"></div>
+    <div class="hero-glow hero-glow-2"></div>
+    <div class="hero-content">
+      <div class="hero-tag"><span class="hero-tag-dot"></span> Open to Work &amp; Collaboration</div>
+      <h1 class="hero-name">
+        <span class="line">Daniel L.</span>
+        <span class="line gradient-text">Tobing</span>
+      </h1>
+      <p class="hero-role">AI Engineer</p>
+      <p class="hero-subtitle">
+        Membangun sistem <span class="hl">kecerdasan buatan</span> yang scalable —
+        dari LLM pipelines hingga model ML siap produksi yang mengubah cara bisnis bekerja.
+      </p>
+      <div class="hero-btns">
+        <a href="#work" class="btn-primary">Lihat Proyek →</a>
+        <a href="#contact" class="btn-secondary">Mari Ngobrol ↗</a>
+      </div>
+    </div>
+
+    <div class="hero-photo-wrap">
+      <div class="hero-photo-card">
+        <img src="daniel.jpeg" alt="Daniel L. Tobing" class="hero-photo" />
+        <div class="photo-badge"><span class="photo-badge-dot"></span> Available</div>
+        <div class="photo-float-tag">AI Engineer</div>
+      </div>
+      <div class="hero-photo-glow"></div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <div class="stats-bar reveal">
+    <div class="stat-item"><div class="stat-num">3+</div><div class="stat-label">Tahun Exp</div></div>
+    <div class="stat-item"><div class="stat-num">20+</div><div class="stat-label">Proyek Selesai</div></div>
+    <div class="stat-item"><div class="stat-num">15+</div><div class="stat-label">Model Deployed</div></div>
+    <div class="stat-item"><div class="stat-num">5★</div><div class="stat-label">Client Rating</div></div>
+  </div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="about-grid">
+      <div class="about-left">
+        <div class="section-chip reveal">// about me</div>
+        <h2 class="reveal reveal-delay-1">Engineer yang<br><span class="gradient-text">build & ship</span><br>AI systems</h2>
+        <p class="reveal reveal-delay-2">Halo! Saya <strong>Daniel L. Tobing</strong>, seorang AI Engineer dengan passion di bidang kecerdasan buatan dan machine learning. Spesialis dalam membangun sistem LLM, RAG pipelines, dan solusi AI end-to-end yang siap produksi.</p>
+        <p class="reveal reveal-delay-2">Saya percaya AI terbaik adalah yang benar-benar berguna — bukan sekadar demo, tapi sistem yang berjalan kencang, akurat, dan memberikan dampak nyata.</p>
+        <div class="about-contacts reveal reveal-delay-3">
+          <a href="mailto:danieltobing.id@gmail.com" class="contact-chip"><span>✉</span> danieltobing.id@gmail.com</a>
+          <a href="tel:082272556985" class="contact-chip"><span>📱</span> 0822-7255-6985</a>
+          <a href="https://github.com/danieltobing-lab" target="_blank" class="contact-chip"><span>⚡</span> danieltobing-lab</a>
+          <a href="https://instagram.com/nieellvv" target="_blank" class="contact-chip"><span>📸</span> @nieellvv</a>
+        </div>
+        <div class="skills-grid reveal reveal-delay-3">
+          <div class="skill-item">Python</div>
+          <div class="skill-item">LangChain</div>
+          <div class="skill-item">LLM / GPT-4</div>
+          <div class="skill-item">RAG Pipeline</div>
+          <div class="skill-item">TensorFlow</div>
+          <div class="skill-item">FastAPI</div>
+          <div class="skill-item">PyTorch</div>
+          <div class="skill-item">Docker / K8s</div>
+        </div>
+      </div>
+      <div class="about-right reveal reveal-delay-2">
+        <div class="skill-bar-item"><div class="skill-bar-header"><span class="skill-bar-name">Large Language Models</span><span class="skill-bar-pct">92%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="92"></div></div></div>
+        <div class="skill-bar-item"><div class="skill-bar-header"><span class="skill-bar-name">Machine Learning</span><span class="skill-bar-pct">88%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="88"></div></div></div>
+        <div class="skill-bar-item"><div class="skill-bar-header"><span class="skill-bar-name">RAG & Vector Databases</span><span class="skill-bar-pct">90%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="90"></div></div></div>
+        <div class="skill-bar-item"><div class="skill-bar-header"><span class="skill-bar-name">MLOps & Deployment</span><span class="skill-bar-pct">82%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="82"></div></div></div>
+        <div class="skill-bar-item"><div class="skill-bar-header"><span class="skill-bar-name">Computer Vision</span><span class="skill-bar-pct">75%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="75"></div></div></div>
+        <div class="skill-bar-item"><div class="skill-bar-header"><span class="skill-bar-name">NLP & Text Processing</span><span class="skill-bar-pct">86%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="86"></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section id="work">
+    <div class="work-header">
+      <div>
+        <div class="section-chip reveal">// selected work</div>
+        <h2 class="reveal reveal-delay-1">Proyek <span class="gradient-text">Pilihan</span></h2>
+      </div>
+      <a href="https://github.com/danieltobing-lab" target="_blank" class="btn-secondary reveal">GitHub →</a>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card reveal">
+        <div class="project-visual pv1"><div class="project-glow"></div><div class="project-icon">🤖</div></div>
+        <div class="project-info">
+          <div class="project-tags"><span class="project-tag tag-purple">LLM</span><span class="project-tag tag-purple">RAG</span><span class="project-tag tag-cyan">LangChain</span></div>
+          <h3>Enterprise AI Chatbot</h3>
+          <p>Sistem chatbot berbasis RAG + GPT-4 untuk perusahaan dengan knowledge base internal. Akurasi 92%, latency &lt;1.5 detik.</p>
+          <div class="project-footer"><a href="https://github.com/danieltobing-lab" target="_blank" class="project-link">View on GitHub →</a><span class="project-year">2024</span></div>
+        </div>
+      </div>
+      <div class="project-card reveal reveal-delay-1">
+        <div class="project-visual pv2"><div class="project-glow"></div><div class="project-icon">📊</div></div>
+        <div class="project-info">
+          <div class="project-tags"><span class="project-tag tag-cyan">ML</span><span class="project-tag tag-purple">Python</span></div>
+          <h3>Predictive Analytics</h3>
+          <p>Model prediksi penjualan akurasi 89% menggunakan ensemble learning & advanced feature engineering.</p>
+          <div class="project-footer"><a href="https://github.com/danieltobing-lab" target="_blank" class="project-link">View on GitHub →</a><span class="project-year">2024</span></div>
+        </div>
+      </div>
+      <div class="project-card reveal reveal-delay-2">
+        <div class="project-visual pv3"><div class="project-glow"></div><div class="project-icon">👁️</div></div>
+        <div class="project-info">
+          <div class="project-tags"><span class="project-tag tag-purple">CV</span><span class="project-tag tag-cyan">FastAPI</span></div>
+          <h3>Image Recognition API</h3>
+          <p>REST API deteksi objek real-time dengan model YOLO custom, 95% mAP, latency 80ms untuk mobile apps.</p>
+          <div class="project-footer"><a href="https://github.com/danieltobing-lab" target="_blank" class="project-link">View on GitHub →</a><span class="project-year">2023</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <div class="section-chip reveal">// what i do</div>
+    <h2 class="reveal reveal-delay-1">Layanan <span class="gradient-text">Unggulan</span></h2>
+    <div class="services-grid">
+      <div class="service-card reveal reveal-delay-1">
+        <div class="service-num">01 —</div>
+        <div class="service-icon">🧠</div>
+        <h3>AI / LLM Development</h3>
+        <p>Membangun aplikasi berbasis LLM, RAG pipeline, dan AI agents yang powerful menggunakan model terkini.</p>
+        <div class="service-stack"><span class="stack-tag">GPT-4</span><span class="stack-tag">Claude</span><span class="stack-tag">LangChain</span><span class="stack-tag">ChromaDB</span></div>
+      </div>
+      <div class="service-card reveal reveal-delay-2">
+        <div class="service-num">02 —</div>
+        <div class="service-icon">⚙️</div>
+        <h3>Machine Learning</h3>
+        <p>Training, evaluasi, dan deployment model ML end-to-end dari data mentah hingga production-ready API.</p>
+        <div class="service-stack"><span class="stack-tag">PyTorch</span><span class="stack-tag">TensorFlow</span><span class="stack-tag">Scikit-learn</span></div>
+      </div>
+      <div class="service-card reveal reveal-delay-3">
+        <div class="service-num">03 —</div>
+        <div class="service-icon">🚀</div>
+        <h3>MLOps & Deployment</h3>
+        <p>Setup infrastruktur MLOps yang scalable — CI/CD untuk model, monitoring, dan auto-scaling di cloud.</p>
+        <div class="service-stack"><span class="stack-tag">Docker</span><span class="stack-tag">Kubernetes</span><span class="stack-tag">FastAPI</span><span class="stack-tag">AWS</span></div>
+      </div>
+      <div class="service-card reveal reveal-delay-4">
+        <div class="service-num">04 —</div>
+        <div class="service-icon">💡</div>
+        <h3>AI Consulting</h3>
+        <p>Membantu bisnis menemukan peluang implementasi AI yang paling berdampak dan merancang roadmap teknisnya.</p>
+        <div class="service-stack"><span class="stack-tag">Strategy</span><span class="stack-tag">Audit</span><span class="stack-tag">Roadmap</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="contact-glow"></div>
+    <div class="contact-inner">
+      <div class="section-chip reveal">// get in touch</div>
+      <h2 class="reveal reveal-delay-1">Let's Build Something <span class="gradient-text">Amazing</span></h2>
+      <p class="reveal reveal-delay-2">Saya selalu terbuka untuk proyek baru, kolaborasi AI yang seru, atau sekadar ngobrol tentang masa depan teknologi. Feel free to reach out!</p>
+      <a href="mailto:danieltobing.id@gmail.com" class="contact-email reveal reveal-delay-2">danieltobing.id@gmail.com</a>
+      <div class="contact-cards reveal reveal-delay-3">
+        <a href="mailto:danieltobing.id@gmail.com" class="contact-card">
+          <div class="cc-icon">✉</div>
+          <div class="cc-label">Email</div>
+          <div class="cc-value">danieltobing.id@gmail.com</div>
+        </a>
+        <a href="https://github.com/danieltobing-lab" target="_blank" class="contact-card">
+          <div class="cc-icon">⚡</div>
+          <div class="cc-label">GitHub</div>
+          <div class="cc-value">danieltobing-lab</div>
+        </a>
+        <a href="https://instagram.com/nieellvv" target="_blank" class="contact-card">
+          <div class="cc-icon">📸</div>
+          <div class="cc-label">Instagram</div>
+          <div class="cc-value">@nieellvv</div>
+        </a>
+        <a href="https://wa.me/6282272556985" target="_blank" class="contact-card">
+          <div class="cc-icon">💬</div>
+          <div class="cc-label">WhatsApp</div>
+          <div class="cc-value">0822-7255-6985</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2024 Daniel L. Tobing — AI Engineer</p>
+    <div class="footer-status"><div class="status-dot"></div> Available for freelance</div>
+    <p>Built with ♡ & Python</p>
+  </footer>
+
+  <script src="js/cursor.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/reveal.js"></script>
+</body>
+</html>
